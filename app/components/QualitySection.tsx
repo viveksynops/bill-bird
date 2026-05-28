@@ -78,11 +78,11 @@ export default function QualitySection() {
         <div className="relative min-h-[520px] overflow-hidden rounded-[2rem] border border-[#ded7ca] bg-[#efe8dc] shadow-[0_28px_74px_rgba(25,32,42,0.12)]">
           <div ref={imageRef} className="absolute inset-0 scale-110">
             <Image
-              src="/images/image4.jpeg"
-              alt="Premium optical glasses and lenses displayed in a clean eyewear setting"
+              src="/images/girl.jpg"
+              alt="Model wearing premium optical glasses in a warm studio portrait"
               fill
               sizes="(min-width: 1024px) 45vw, 100vw"
-              className="object-cover"
+              className="object-cover object-[50%_28%]"
             />
           </div>
         </div>
